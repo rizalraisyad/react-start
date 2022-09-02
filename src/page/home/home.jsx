@@ -1,11 +1,6 @@
-import { Link } from "react-router-dom"
 import { ButtonHome } from "./components/buttonHome"
 import React, { useState } from 'react';
 import { getJoke } from "../../model/jokeapi"
-
-
-import React, { useState } from 'react';
-import { getJoke } from "../../model/jokes";
 
 
 export const Homes = () => {
